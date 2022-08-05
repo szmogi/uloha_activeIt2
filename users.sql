@@ -33,7 +33,7 @@ CREATE TABLE `users` (
   `last_name` varchar(100) DEFAULT NULL,
   `street_address` varchar(200) DEFAULT NULL,
   `address_number` varchar(100) DEFAULT NULL,
-  `zip_code` int(20) DEFAULT NULL,
+  `zip_code` varchar(100) DEFAULT NULL,
   `city` varchar(200) DEFAULT NULL,
   `iban` varchar(200) DEFAULT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),

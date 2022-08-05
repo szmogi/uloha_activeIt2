@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "base.css",
+	"sources": [
+		"../scss/base.scss"
+	],
+	"sourcesContent": [
+		"\r\n\r\n\r\n#iban-validate-not{\r\n    display: none;\r\n}\r\n\r\n\r\n#iban-validate-yes {\r\n    display: none;\r\n}\r\n\r\n\r\n\r\n.container-lg{\r\n    padding: 5rem;\r\n\r\n\r\n    .btn{\r\n        margin: 3rem;\r\n    }\r\n}\r\n\r\n#msg-success {\r\n    display: none;\r\n    justify-content: space-around;\r\n    align-items: center;\r\n\r\n    span {\r\n        font-weight: bold;\r\n\r\n        &:hover {\r\n            color: grey;\r\n            cursor: pointer;\r\n\r\n        }\r\n    }\r\n}\r\n\r\n#msg-alert {\r\n    display: none;\r\n    justify-content: space-around;\r\n    align-items: center;\r\n\r\n    span {\r\n        font-weight: bold;\r\n\r\n        &:hover {\r\n            color: grey;\r\n            cursor: pointer;\r\n\r\n        }\r\n    }\r\n}\r\n\r\n#not-valid-regg{\r\n    display:none;\r\n}\r\n\r\n\r\n\r\n.form{\r\n\r\n    .regg-user-info {\r\n\r\n\r\n       div{\r\n        background-color: rgba(245, 245, 245,80);\r\n       }\r\n\r\n        label {\r\n                font-size: 0.8rem;\r\n        }\r\n\r\n\r\n    }\r\n\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n@media (max-width:1200px) {\r\n\r\n    #table{\r\n        font-size: 0.9rem;\r\n    }\r\n    \r\n}\r\n\r\n\r\n@media (max-width:900px) {\r\n\r\n    #table {\r\n        font-size: 0.9rem;\r\n    }   \r\n\r\n}\r\n\r\n"
+	],
+	"names": [],
+	"mappings": ";AAGA,AAAA,kBAAkB,CAAA;EACd,OAAO,EAAE,IAAI,GAChB;;;AAGD,AAAA,kBAAkB,CAAC;EACf,OAAO,EAAE,IAAI,GAChB;;;AAID,AAAA,aAAa,CAAA;EACT,OAAO,EAAE,IAAI,GAMhB;;EAPD,AAII,aAJS,CAIT,IAAI,CAAA;IACA,MAAM,EAAE,IAAI,GACf;;;AAGL,AAAA,YAAY,CAAC;EACT,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;EAC7B,WAAW,EAAE,MAAM,GAWtB;;EAdD,AAKI,YALQ,CAKR,IAAI,CAAC;IACD,WAAW,EAAE,IAAI,GAOpB;;IAbL,AAQQ,YARI,CAKR,IAAI,AAGC,MAAM,CAAC;MACJ,KAAK,EAAE,IAAI;MACX,MAAM,EAAE,OAAO,GAElB;;;AAIT,AAAA,UAAU,CAAC;EACP,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;EAC7B,WAAW,EAAE,MAAM,GAWtB;;EAdD,AAKI,UALM,CAKN,IAAI,CAAC;IACD,WAAW,EAAE,IAAI,GAOpB;;IAbL,AAQQ,UARE,CAKN,IAAI,AAGC,MAAM,CAAC;MACJ,KAAK,EAAE,IAAI;MACX,MAAM,EAAE,OAAO,GAElB;;;AAIT,AAAA,eAAe,CAAA;EACX,OAAO,EAAC,IAAI,GACf;;;AAID,AAKO,KALF,CAED,eAAe,CAGZ,GAAG,CAAA;EACF,gBAAgB,EAAE,UAAsB,GACxC;;;AAPR,AASQ,KATH,CAED,eAAe,CAOX,KAAK,CAAC;EACE,SAAS,EAAE,MAAM,GACxB;;AAaT,MAAM,EAAE,SAAS,EAAE,MAAM;;EAErB,AAAA,MAAM,CAAA;IACF,SAAS,EAAE,MAAM,GACpB;;AAKL,MAAM,EAAE,SAAS,EAAE,KAAK;;EAEpB,AAAA,MAAM,CAAC;IACH,SAAS,EAAE,MAAM,GACpB"
+}

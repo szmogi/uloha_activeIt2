@@ -1,0 +1,95 @@
+
+
+
+#iban-validate-not{
+    display: none;
+}
+
+
+#iban-validate-yes {
+    display: none;
+}
+
+
+
+.container-lg{
+    padding: 5rem;
+
+
+    .btn{
+        margin: 3rem;
+    }
+}
+
+#msg-success {
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+
+    span {
+        font-weight: bold;
+
+        &:hover {
+            color: grey;
+            cursor: pointer;
+
+        }
+    }
+}
+
+#msg-alert {
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+
+    span {
+        font-weight: bold;
+
+        &:hover {
+            color: grey;
+            cursor: pointer;
+
+        }
+    }
+}
+
+#not-valid-regg{
+    display:none;
+}
+
+
+
+.form{
+
+    .regg-user-info {
+
+
+       div{
+        background-color: rgb(248, 245, 245);
+       }
+
+        label {
+                font-size: 0.8rem;
+        }
+
+
+    }
+
+}
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+
+    #table{
+        font-size: 0.9rem;
+    }
+    
+}
+
+
+

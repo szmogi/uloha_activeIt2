@@ -1,0 +1,64 @@
+/* line 4, ../xampp/htdocs/uloha_activeIt2/assets/scss/base.scss */
+#iban-validate-not {
+  display: none; }
+
+/* line 9, ../xampp/htdocs/uloha_activeIt2/assets/scss/base.scss */
+#iban-validate-yes {
+  display: none; }
+
+/* line 15, ../xampp/htdocs/uloha_activeIt2/assets/scss/base.scss */
+.container-lg {
+  padding: 5rem; }
+  /* line 19, ../xampp/htdocs/uloha_activeIt2/assets/scss/base.scss */
+  .container-lg .btn {
+    margin: 3rem; }
+
+/* line 24, ../xampp/htdocs/uloha_activeIt2/assets/scss/base.scss */
+#msg-success {
+  display: none;
+  justify-content: space-around;
+  align-items: center; }
+  /* line 29, ../xampp/htdocs/uloha_activeIt2/assets/scss/base.scss */
+  #msg-success span {
+    font-weight: bold; }
+    /* line 32, ../xampp/htdocs/uloha_activeIt2/assets/scss/base.scss */
+    #msg-success span:hover {
+      color: grey;
+      cursor: pointer; }
+
+/* line 40, ../xampp/htdocs/uloha_activeIt2/assets/scss/base.scss */
+#msg-alert {
+  display: none;
+  justify-content: space-around;
+  align-items: center; }
+  /* line 45, ../xampp/htdocs/uloha_activeIt2/assets/scss/base.scss */
+  #msg-alert span {
+    font-weight: bold; }
+    /* line 48, ../xampp/htdocs/uloha_activeIt2/assets/scss/base.scss */
+    #msg-alert span:hover {
+      color: grey;
+      cursor: pointer; }
+
+/* line 56, ../xampp/htdocs/uloha_activeIt2/assets/scss/base.scss */
+#not-valid-regg {
+  display: none; }
+
+/* line 67, ../xampp/htdocs/uloha_activeIt2/assets/scss/base.scss */
+.form .regg-user-info div {
+  background-color: whitesmoke; }
+
+/* line 71, ../xampp/htdocs/uloha_activeIt2/assets/scss/base.scss */
+.form .regg-user-info label {
+  font-size: 0.8rem; }
+
+@media (max-width: 1200px) {
+  /* line 88, ../xampp/htdocs/uloha_activeIt2/assets/scss/base.scss */
+  #table {
+    font-size: 0.9rem; } }
+
+@media (max-width: 900px) {
+  /* line 97, ../xampp/htdocs/uloha_activeIt2/assets/scss/base.scss */
+  #table {
+    font-size: 0.9rem; } }
+
+/*# sourceMappingURL=base.css.map */
